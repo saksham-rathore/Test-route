@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
+import Script from "next/script";
 import Navbar from "@/components/Navbar";
 import "./globals.css";
 
@@ -28,6 +29,12 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
+        <Script
+          src="https://t.raah.dev/script.js"
+          data-pid="proj_la5c1b1mru0b37c6"
+          data-domain="test-route-psi.vercel.app"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
