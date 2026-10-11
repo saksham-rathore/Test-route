@@ -29,12 +29,12 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
-         <script 
-            defer
-            src="https://t.raah.dev/script.js" 
-            data-pid="proj_n0i4ja2ig9r5cyqu"
-            data-domain="test-route-psi.vercel.app">
-         </script>
+        <script
+          defer 
+          src="https://t.raah.dev/script.js" 
+          data-pid="proj_z8qejb70g7yibjjh" 
+          data-domain="test-route-psi.vercel.app">
+       </script>
       </body>
     </html>
   );
