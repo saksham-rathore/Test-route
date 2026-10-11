@@ -28,8 +28,8 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${outfit.variable}`}>
       <head>
          <Script
-          src="https://t.raah.dev/script.js"
-          data-pid="proj_1nb14e33593hvteb"
+          src="http://localhost:3000/beacon.js"
+          data-pid="cmv437nm6000150wcq4xnwgho"
           data-domain="test-route-psi.vercel.app"
           strategy="afterInteractive"
         />
