@@ -26,15 +26,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable}`}>
-      <body>
-        <Navbar />
-        {children}
-        <Script
+      <head>
+         <Script
           src="https://t.raah.dev/script.js"
           data-pid="proj_1nb14e33593hvteb"
           data-domain="test-route-psi.vercel.app"
           strategy="afterInteractive"
         />
+      </head>
+      <body>
+        <Navbar />
+        {children}
+       
       </body>
     </html>
   );
