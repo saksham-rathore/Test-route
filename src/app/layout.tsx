@@ -29,8 +29,9 @@ export default function RootLayout({
       <head>
         <Script
           src="http://localhost:3000/beacon.js"
-          data-pid="cmv54cywb00016swcpirb60uw"
+          data-pid="cmv566dqy000188wcyjyd5mag"
           data-domain="test-route-psi.vercel.app"
+          data-beacon="http://localhost:3000/api/collect"
           strategy="afterInteractive"
         />
       </head>
