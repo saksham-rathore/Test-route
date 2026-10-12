@@ -27,9 +27,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable}`}>
       <head>
-         <Script
+        <Script
           src="http://localhost:3000/beacon.js"
-          data-pid="cmv437nm6000150wcq4xnwgho"
+          data-pid="cmv54cywb00016swcpirb60uw"
           data-domain="test-route-psi.vercel.app"
           strategy="afterInteractive"
         />
